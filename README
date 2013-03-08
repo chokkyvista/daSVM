@@ -4,6 +4,9 @@ You may find the paper here:
 "Data Augmentation for Support Vector Machines" by Nicholas G. Polson and Steven L. Scotty, published in Bayesian Analysis (2011)
 http://ba.stat.cmu.edu/journal/2011/vol06/issue01/polson.pdf
 
-Specifically, I implemented the MCMC part, as well as the case under spike-and-slab prior.
+Specifically, I implemented the basic EM algorithm and the MCMC algorithm, as well as the case under spike-and-slab prior.
+
+NEW: We extend the algorithm to the Crammer & Singer multi-class SVM!
+     Check csmultisvm.m!
 
 The code is already highly optimized for Matlab (not further accelerated by MEX though).

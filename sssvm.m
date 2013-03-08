@@ -16,6 +16,8 @@
 % WARNING: lambda should be TWICE the normal case!
 %          (check the objective function in fobj.m)
 % 
+% See also MCSVM
+% 
 % Written by Minjie Xu (chokkyvista06@gmail.com)
 
 function [w] = sssvm(X, y, lambda, ell, nepoch, pi)
