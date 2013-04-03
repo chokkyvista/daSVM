@@ -65,7 +65,7 @@ for i = 1:nepoch
         invgamma(indinf) = max(invgamma(~indinf)).^2; % avoid infinite invgamma
     end
     if emormc
-        invgamma = invnrnd(invgamma, 1, n);
+        invgamma = invnrnd(invgamma, 1);
     end
     tig = sqrt(invgamma)';
     sX = X.*tig(ones(k,1),:);

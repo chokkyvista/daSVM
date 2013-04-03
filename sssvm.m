@@ -70,7 +70,7 @@ for i = 1:nepoch
     end
     
     % sampling 'invlambda'
-    invlambda = invnrnd(1./abs(ell-y'.*(w'*X))', 1, n);
+    invlambda = invnrnd(1./abs(ell-y'.*(w'*X))', 1);
     Xmym1pil = X*(y.*(1+ell*invlambda));
     
     til = sqrt(invlambda)';
