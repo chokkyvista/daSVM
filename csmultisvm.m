@@ -1,6 +1,6 @@
 % Solve Crammer & Singer multi-class SVMs via data augmentation.
 % For theoretical and technical details, please refer to our paper
-% "Fast Parallel SVM using Data Augmentation" (to appear)
+% "Fast Parallel SVM using Data Augmentation" (http://ml.cs.tsinghua.edu.cn/~minjie/pub/dasvm.pdf)
 % 
 % inputs:
 % X - data matrix (N*K, data stored row-wisely)
